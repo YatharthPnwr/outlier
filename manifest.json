@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Outlier",
+  "version": "1.0.0",
+  "description": "Sort any Instagram profile's posts and reels by views, likes, comments, outlier score, or age.",
+  "content_scripts": [
+    {
+      "matches": ["https://www.instagram.com/*"],
+      "js": ["content.js"],
+      "css": ["panel.css"],
+      "run_at": "document_idle"
+    }
+  ]
+}
