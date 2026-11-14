@@ -407,7 +407,7 @@
     panel.id = 'sf-panel';
     panel.innerHTML = `
       <div class="sf-header">
-        <span class="sf-logo">⇅</span>
+        <span class="sf-logo"><svg viewBox="0 0 128 128" width="18" height="18" xmlns="http://www.w3.org/2000/svg"><rect x="18" y="77" width="18" height="28" rx="6" fill="#5a5c62"/><rect x="45" y="62" width="18" height="43" rx="6" fill="#5a5c62"/><rect x="72" y="31" width="18" height="74" rx="6" fill="#bef23c"/><rect x="99" y="69" width="18" height="36" rx="6" fill="#5a5c62"/><g stroke="#bef23c" stroke-width="4" stroke-linecap="round"><line x1="71" y1="16" x2="91" y2="16"/><line x1="81" y1="6" x2="81" y2="26"/><line x1="74" y1="9" x2="88" y2="23"/><line x1="74" y1="23" x2="88" y2="9"/></g></svg></span>
         <span class="sf-title">Outlier</span>
         <span class="sf-badge">Free</span>
         <button class="sf-min" title="Minimize">–</button>

@@ -26,14 +26,13 @@
 }
 
 .sf-logo {
-  background: #ffd43b;
+  background: #121214;
   border-radius: 6px;
   width: 24px;
   height: 24px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  font-weight: 700;
 }
 
 .sf-title {
